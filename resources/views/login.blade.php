@@ -25,6 +25,16 @@
         object-fit: contain;
     }
 
+    .school-name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #333333;
+        margin-top: 8px;
+        margin-bottom: 0.75rem;
+        text-align: center;
+    }
+
     .login-title {
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
@@ -142,6 +152,9 @@
     <div class="login-logo">
         <img src="{{ asset('image/logo-sekolah.png') }}" alt="Logo Sekolah">
     </div>
+
+    {{-- School Name --}}
+    <p class="school-name">SMP IT YAPURA</p>
 
     {{-- Title --}}
     <h1 class="login-title">

@@ -63,6 +63,7 @@
             border-bottom: 1px solid #D0C9A8;
             height: 140px;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             background: linear-gradient(135deg, #9CAB84 0%, #8B9A6F 100%);
@@ -71,7 +72,7 @@
 
         .sidebar-logo {
             width: 100%;
-            height: 100%;
+            height: auto;
             max-width: 110px;
             max-height: 110px;
             display: flex;
@@ -83,6 +84,15 @@
             width: 100%;
             height: 100%;
             object-fit: contain;
+        }
+
+        .sidebar-school-name {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 11px;
+            color: #FFFFFF;
+            margin-top: 4px;
+            text-align: center;
         }
 
         .sidebar-menu {
@@ -430,6 +440,7 @@
                 <div class="sidebar-logo">
                     <img src="{{ asset('image/logo-sekolah.png') }}" alt="Logo Sekolah">
                 </div>
+                <p class="sidebar-school-name">SMP IT YAPURA</p>
             </div>
 
             <div class="sidebar-menu">

@@ -25,6 +25,15 @@
         object-fit: contain;
     }
 
+    .school-name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #333333;
+        margin-top: 8px;
+        text-align: center;
+    }
+
     .role-header {
         text-align: center;
         margin-bottom: 2.5rem;
@@ -138,6 +147,7 @@
     {{-- Logo Section --}}
     <div class="logo-section">
         <img src="{{ asset('image/logo-sekolah.png') }}" alt="Logo Sekolah" class="logo-img">
+        <p class="school-name">SMP IT YAPURA</p>
     </div>
 
     {{-- Header --}}
